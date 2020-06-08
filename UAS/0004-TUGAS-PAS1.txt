@@ -1,0 +1,33 @@
+Script started on Tue 09 Jun 2020 01:37:33 AM WIB
+tari.trinatha@badak:~$ echo $GitHubUser
+taritrinatha
+tari.trinatha@badak:~$ echo $PSTAMP
+TMP1="$(date +%y%m%d-%H%M%S)"; TMP2="$(echo $TMP1-$GitHubUser-${PWD##*/}|sha1sum|cut -c1-4)"; echo "$TMP1-$TMP2-${PWD##*/}/> ";
+tari.trinatha@badak:~$ eval $PSTAMP
+200609-013755-6b62-tari.trinatha/>
+tari.trinatha@badak:~$ PS1="\$(eval \$PSTAMP)"
+200609-013806-0b63-tari.trinatha/> echo -e $CEKSAYA
+taritrinatha ZCZCSCRIPTSTART 200608-230511 taritrinatha
+taritrinatha taritrinatha 200608-230523-6256-tari.trinatha/200608-230523 SEQOK SUMOK 62563d81
+taritrinatha taritrinatha 200608-230523-6256-tari.trinatha/200608-230523 SEQOK SUMOK 62563d81
+taritrinatha taritrinatha 200608-230527-905b-tari.trinatha/200608-230527 SEQOK SUMOK 905b44f4
+taritrinatha taritrinatha 200608-230535-17f6-tari.trinatha/200608-230535 SEQOK SUMOK 17f66845
+taritrinatha ZCZCSCRIPTSTOP 200608-230540 SEQOK
+200609-013814-7503-tari.trinatha/> echo -e $CEKSEBELA1
+taritrinatha ZCZCSCRIPTSTART 200606-150126 tasyashbr
+taritrinatha tasyashbr 200606-150155-647f-tasya.putri81/200606-150155 SEQOK SUMOK 647f5249
+taritrinatha tasyashbr 200606-150203-1ab9-tasya.putri81/200606-150203 SEQOK SUMOK 1ab979db
+taritrinatha tasyashbr 200606-150207-dc4a-tasya.putri81/200606-150207 SEQOK SUMOK dc4a8898
+taritrinatha tasyashbr 200606-150214-732e-tasya.putri81/200606-150214 SEQOK SUMOK 732e51a5
+taritrinatha ZCZCSCRIPTSTOP 200606-150222 SEQOK
+200609-013823-3889-tari.trinatha/> echo -e $CEKSEBELA2
+taritrinatha ZCZCSCRIPTSTART 200606-154739 tesajps
+taritrinatha tesajps 200606-154809-4b5e-tesalonika.julia/ 200606-154809 SEQOK SUMOK 4b5eadda
+taritrinatha tesajps 200606-154822-675a-tesalonika.julia/ 200606-154822 SEQOK SUMOK 675ab162
+taritrinatha tesajps 200606-154825-6122-tesalonika.julia/ 200606-154825 SEQOK SUMOK 6122676c
+taritrinatha tesajps 200606-154833-5bdc-tesalonika.julia/ 200606-154833 SEQOK SUMOK 5bdc95d2
+taritrinatha ZCZCSCRIPTSTOP 200606-154843 SEQOK
+200609-013833-5586-tari.trinatha/> exit
+exit
+
+Script done on Tue 09 Jun 2020 01:38:41 AM WIB
