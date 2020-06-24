@@ -4,7 +4,7 @@ taritrinatha
 tari.trinatha@badak:~$ echo $PSTAMP
 TMP1="$(date +%y%m%d-%H%M%S)"; TMP2="$(echo $TMP1-$GitHubUser-${PWD##*/}|sha1sum|cut -c1-4)"; echo "$TMP1-$TMP2-${PWD##*/}/> ";
 tari.trinatha@badak:~$ eval $PSTAMP
-200609-013755-6b62-tari.trinatha/>
+200609-013755-6b62-tari.trinatha/> 
 tari.trinatha@badak:~$ PS1="\$(eval \$PSTAMP)"
 200609-013806-0b63-tari.trinatha/> echo -e $CEKSAYA
 taritrinatha ZCZCSCRIPTSTART 200608-230511 taritrinatha
